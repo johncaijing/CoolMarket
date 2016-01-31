@@ -6,6 +6,13 @@
 
     <string name="action_settings">设置</string>
     <string name="click_login">点击头像登录</string>
+    <string name="hint_name">用户名/Email/手机号</string>
+    <string name="hint_password">密码</string>
+
+    <string name="user_login">用户登录</string>
+    <string name="login">登录</string>
+    <string name="error_login_empty">用户名/Email/手机号不能为空</string>
+    <string name="error_pswd_empty">密码不能为空</string>
 
 
 </resources>
