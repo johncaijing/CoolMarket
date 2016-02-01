@@ -19,6 +19,9 @@ import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import butterknife.ButterKnife;
+import butterknife.OnClick;
+
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, View.OnClickListener {
 
@@ -44,6 +47,8 @@ public class MainActivity extends AppCompatActivity
         mTextView = (TextView) findViewById(R.id.textView);
         mImageView = (ImageView) navigationView.getHeaderView(0).findViewById(R.id.ivAvatar);
         mImageView.setOnClickListener(this);
+
+        ButterKnife.bind(this);
     }
 
     @Override
@@ -129,5 +134,10 @@ public class MainActivity extends AppCompatActivity
             Intent intent = new Intent(this,LoginActivity.class);
             startActivity(intent);
         }
+    }
+
+    @OnClick(R.id.snackbar)
+    void goToSnackbar(){
+        startActivity(new Intent(this,SnackBarActivity.class));
     }
 }

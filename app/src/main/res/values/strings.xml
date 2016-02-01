@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">NavigationViewDemo</string>
+    <string name="app_name">CoolMarketDemo</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -13,6 +13,9 @@
     <string name="login">登录</string>
     <string name="error_login_empty">用户名/Email/手机号不能为空</string>
     <string name="error_pswd_empty">密码不能为空</string>
-
-
+    <string name="snackbar_indefinitely">无限期显示Snackbar</string>
+    <string name="snackbar_long">在Long时间段内显示Snackbar</string>
+    <string name="snackbar_short">在short时间段内显示Snackbar</string>
+    <string name="snackbar_action">设置Snackbar的action</string>
+    <string name="snackbar_color">自定义Snackbar的文字颜色</string>
 </resources>

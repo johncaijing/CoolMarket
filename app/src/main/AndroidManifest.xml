@@ -20,6 +20,8 @@
         </activity>
         <activity android:name=".LoginActivity"
             android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".SnackBarActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
     </application>
 
 </manifest>
